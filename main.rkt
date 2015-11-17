@@ -23,10 +23,6 @@
 
 (require racket/set)
 
-(module+ test
-  (require rackunit)
-  (require srfi/1))
-
 (struct graph (nodes forward-edges backward-edges))
 
 (define (make-graph [edges '()])
@@ -90,6 +86,9 @@
     result))
 
 (module+ test
+  (require rackunit)
+  (require srfi/1)
+
   ;; Short loop
   (check-exn
    exn:fail?

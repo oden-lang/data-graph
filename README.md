@@ -11,6 +11,12 @@ using the same Git URL in your `info.rkt` deps.
 
 Then you should be able to `(require graph)` in Racket.
 
+## Tests
+
+```bash
+raco test main.rkt
+```
+
 ## License
 
 Copyright 2011 Tony Garnock-Jones <tonyg@leastfixedpoint.com>
