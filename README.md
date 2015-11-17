@@ -1,8 +1,15 @@
-# data/graph
+# graph
 
 This is the single Racket `graph` module extracted from
-https://github.com/tonyg/mixfix and packages as `data/graph`. The same license
+https://github.com/tonyg/mixfix. The same license
 applies as in the original repository.
+
+## Usage
+
+Install with `raco pkg install git://github.com:oden-lang/graph.git` or by
+using the same Git URL in your `info.rkt` deps.
+
+Then you should be able to `(require graph)` in Racket.
 
 ## License
 
