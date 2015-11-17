@@ -1,6 +1,8 @@
-# mixfix
+# data/graph
 
-A mixfix parsing library for Racket.
+This is the single Racket `graph` module extracted from
+https://github.com/tonyg/mixfix and packages as `data/graph`. The same license
+applies as in the original repository.
 
 ## License
 
